@@ -20,7 +20,7 @@ const CategoryNews = () => {
       setCategoryNews(filterNews);
     } else if (newsId === 10) {
       const filterNews = data.filter(
-        (news) => news.others.is_trending === true
+        (news) => news?.others?.is_trending === true
       );
       setCategoryNews(filterNews);
     } else {
