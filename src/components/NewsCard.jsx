@@ -48,11 +48,15 @@ const NewsCard = ({ news }) => {
         <h2 className="text-xl font-bold mb-4 leading-snug">{title}</h2>
 
         {/* IMAGE */}
-        <figure>
+        <figure className="px-4 py-2">
           <img
             src={image_url || thumbnail_url}
             alt={title}
-            className="rounded-lg w-full h-auto"
+            className="rounded-lg w-full h-56 object-cover"
+            onError={(e) => {
+              e.target.onerror = null;
+              e.target.src = "/fallback.png";
+            }}
           />
         </figure>
 
@@ -72,7 +76,7 @@ const NewsCard = ({ news }) => {
         </p>
 
         {/* FOOTER */}
-        <hr className="my-4" />
+        <hr className="my-4 text-base-300" />
 
         <div className="flex justify-between items-center">
           {/* RATING */}
