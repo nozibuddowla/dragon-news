@@ -52,7 +52,7 @@ const NewsCard = ({ news }) => {
           <img
             src={image_url || thumbnail_url}
             alt={title}
-            className="rounded-lg w-full h-56 object-cover"
+            className="rounded-lg w-full h-64 object-cover"
             onError={(e) => {
               e.target.onerror = null;
               e.target.src = "/fallback.png";
