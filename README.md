@@ -1,16 +1,41 @@
-# React + Vite
+# React & Firebase Quiz Answers
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**1. What does OAuth primarily help with in modern web applications?**
 
-Currently, two official plugins are available:
+* Securely authorizing third-party access without sharing passwords.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**2. Which of the following is handled by React Router?**
 
-## React Compiler
+* Navigating between different pages in a single-page application.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**3. What is the primary purpose of the `onAuthStateChanged` method in Firebase Authentication?**
 
-## Expanding the ESLint configuration
+* To listen for changes in the user's authentication state.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**4. What is Moment.js primarily used for?**
+
+* Parsing and manipulating dates and times.
+
+**5. What is the correct way to initialize Firebase in a React project?**
+
+* `initializeApp(firebaseConfig)`
+
+**6. What is the purpose of the `useRef` hook in React?**
+
+* To create a new reference to a DOM element.
+
+**7. What is the main use of the Marquee component or library in React?**
+
+* To create scrolling or sliding text animations.
+
+**8. What is the purpose of context in React?**
+
+* To share data across components without prop drilling.
+
+**9. How can you pass multiple data via context in React?**
+
+* By combining multiple data into a single object and passing it as the value of the context provider.
+
+**10. In the AuthProvider component, what is the purpose of the `unsubscribe` function returned by the `useEffect` hook?**
+
+* To unsubscribe from Firebase authentication state changes when the component unmounts.
