@@ -29,7 +29,7 @@ const Navbar = () => {
       </div>
       <div className="login-btn flex items-center gap-5">
         <div> {user && user.email} </div>
-        <img src={userImg} alt="user" />
+        <img className="w-12 h-12 rounded-full object-cover" src={`${ user ? user.photoURL : userImg}`} alt="user" />
         {user ? (
           <button onClick={handleLogOut} className="btn btn-primary px-10">LogOut</button>
         ) : (
