@@ -3,7 +3,6 @@ import { FaArrowLeft } from "react-icons/fa";
 import { Link } from "react-router";
 
 const NewsDetailsCard = ({ news }) => {
-  console.log(news);
   const { category_id, image_url, title, details } = news;
   return (
     <div className="card bg-base-100 shadow-sm space-y-5">
