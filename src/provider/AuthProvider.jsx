@@ -16,7 +16,7 @@ const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(true);
 
-  console.log(loading, user);
+  // console.log(loading, user);
 
   const createUser = (email, password) => {
     setLoading(true);
@@ -27,6 +27,10 @@ const AuthProvider = ({ children }) => {
     setLoading(true)
     return signInWithEmailAndPassword(auth, email, password);
   };
+
+  const updateUser = () => {
+    
+  }
 
   const logOut = () => {
     return signOut(auth);
