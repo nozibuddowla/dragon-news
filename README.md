@@ -1,41 +1,96 @@
-# React & Firebase Quiz Answers
+# Dragon News – React & Firebase Quiz Answers
 
-**1. What does OAuth primarily help with in modern web applications?**
+**Dragon News** project: [Live Demo](https://dragon-news-fsociety.web.app/).
 
-* Securely authorizing third-party access without sharing passwords.
 
-**2. Which of the following is handled by React Router?**
+---
 
-* Navigating between different pages in a single-page application.
+## Quiz Questions and Answers
 
-**3. What is the primary purpose of the `onAuthStateChanged` method in Firebase Authentication?**
+### General React & Firebase Concepts
 
-* To listen for changes in the user's authentication state.
+1. **What does OAuth primarily help with in modern web applications?**
 
-**4. What is Moment.js primarily used for?**
+   * Securely authorizing third-party access without sharing passwords.
 
-* Parsing and manipulating dates and times.
+2. **Which of the following is handled by React Router?**
 
-**5. What is the correct way to initialize Firebase in a React project?**
+   * Navigating between different pages in a single-page application (SPA).
 
-* `initializeApp(firebaseConfig)`
+3. **What is the primary purpose of the `onAuthStateChanged` method in Firebase Authentication?**
 
-**6. What is the purpose of the `useRef` hook in React?**
+   * To listen for changes in the user's authentication state.
 
-* To create a new reference to a DOM element.
+4. **What is Moment.js primarily used for?**
 
-**7. What is the main use of the Marquee component or library in React?**
+   * Parsing and manipulating dates and times.
 
-* To create scrolling or sliding text animations.
+5. **What is the correct way to initialize Firebase in a React project?**
 
-**8. What is the purpose of context in React?**
+   * `initializeApp(firebaseConfig)`
 
-* To share data across components without prop drilling.
+6. **What is the purpose of the `useRef` hook in React?**
 
-**9. How can you pass multiple data via context in React?**
+   * To create a reference to a DOM element or store mutable values.
 
-* By combining multiple data into a single object and passing it as the value of the context provider.
+7. **What is the main use of the Marquee component or library in React?**
 
-**10. In the AuthProvider component, what is the purpose of the `unsubscribe` function returned by the `useEffect` hook?**
+   * To create scrolling or sliding text animations.
 
-* To unsubscribe from Firebase authentication state changes when the component unmounts.
+8. **What is the purpose of context in React?**
+
+   * To share data across components without prop drilling.
+
+9. **How can you pass multiple data via context in React?**
+
+   * By combining multiple pieces of data into a single object and passing it as the value of the context provider.
+
+10. **In the AuthProvider component, what is the purpose of the `unsubscribe` function returned by the `useEffect` hook?**
+
+    * To unsubscribe from Firebase authentication state changes when the component unmounts.
+
+---
+
+### Firebase & React-Specific Questions
+
+1. **What is the role of Context API in Firebase projects?**
+
+   * To manage and share authentication state across components.
+
+2. **What does `onAuthStateChanged` do in Firebase Authentication?**
+
+   * Detects changes in the user’s authentication state in real-time.
+
+3. **What is a private route in React?**
+
+   * A route that requires user authentication to access.
+
+4. **Why do we use environment variables (like `.env`) in Firebase projects?**
+
+   * To keep credentials private.
+   * To hide sensitive information like API keys.
+
+5. **What does the `useEffect()` hook help with in the authentication context?**
+
+   * Tracking authentication state changes and updating the UI accordingly.
+
+6. **What command is used to deploy a project to Firebase Hosting?**
+
+   * `firebase deploy`
+
+7. **What is the main purpose of Firebase in a React project?**
+
+   * To handle the database, authentication, and other backend services.
+
+8. **Which Firebase function is used to create a new user with email and password?**
+
+   * `createUserWithEmailAndPassword()`
+
+9. **What is the purpose of redirecting a user to the login page?**
+
+   * To prevent unauthorized access to protected routes.
+
+10. **What does Firebase’s `signOut()` function do?**
+
+    * Logs out the current user and updates the authentication state.
+
