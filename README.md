@@ -1,4 +1,23 @@
-# Dragon News – React & Firebase Quiz Answers
+# Dragon News
+
+**Dragon News** is a modern, React‑based news web application — powered by Firebase — enabling users to browse, read, and manage news content with user authentication. The project demonstrates a full‑stack solution using React for UI, Firebase for backend services, and secure user authentication/authorization.
+
+## 🛠️ Tech & Tools
+
+* **Frontend:** React (JavaScript, hooks, React Router, Context API)
+* **Backend / Hosting:** Firebase (Authentication, Hosting)
+* **Build Tool:** Vite (fast build & dev server)
+* **Configuration:** Environment variables for sensitive keys, clean project structure
+
+## 📦 How to Setup Locally
+
+1. Clone the repository
+2. Install dependencies: `npm install` or `yarn install`
+3. Create a `.env.local` (or `.env`) file in project root with your Firebase config vars (e.g., `VITE_apiKey`, `VITE_authDomain`, etc.)
+4. Run the development server: `npm run dev` or `yarn dev`
+5. (Optional) Build & deploy to Firebase Hosting: `firebase deploy`
+
+## 🔗 Live Demo
 
 **Dragon News** project: [Live Demo](https://dragon-news-fsociety.web.app/).
 
